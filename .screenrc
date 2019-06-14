@@ -1,0 +1,7 @@
+caption always "%{= wk} %{= KY} [%n]%t @ %H %{-} %= %{= KR} %l %{-} | %{= KG} %Y-%m-%d %{-} "
+#hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=| %0c:%s "
+attrcolor b ".I"
+defbce "on"
+vbell off
+defscrollback 10000
+term "screen-256color"
